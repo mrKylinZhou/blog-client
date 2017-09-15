@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import headCom from './view/header/header';
+import headCom from './view/header';
 export default {
     name: 'app',
     components: {

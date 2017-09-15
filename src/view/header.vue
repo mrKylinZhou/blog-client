@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .headband {
         background-color: #222;
         height: 3px;
