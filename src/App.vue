@@ -1,16 +1,15 @@
 <template>
     <div>
-        <head-com></head-com>
-        <p>Only Start</p>
+        <top></top>
     </div>
 </template>
 
 <script>
-import headCom from './view/header';
+import top from './view/top';
 export default {
     name: 'app',
     components: {
-        headCom
+        top
     }
 }
 </script>
