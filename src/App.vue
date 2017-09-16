@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <top></top>
         <main-content></main-content>
     </div>
@@ -17,6 +17,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
     @import './common/reset.css';
+    .container {
+        position: relative;
+        min-height: 100%;
+    }
 </style>

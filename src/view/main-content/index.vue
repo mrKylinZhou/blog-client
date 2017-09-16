@@ -1,8 +1,10 @@
 <template>
     <div>
-        <content-warp></content-warp>
-        <sidebar-toggle></sidebar-toggle>
-        <sidebar></sidebar>
+        <div class="main-inner">
+            <content-warp></content-warp>
+            <sidebar-toggle></sidebar-toggle>
+            <sidebar></sidebar>
+        </div>
     </div>
 </template>
 
@@ -19,3 +21,11 @@ export default {
     }
 }
 </script>
+
+
+<style lang="less" scoped>
+    .main-inner {
+        margin: 0 auto;
+        width: 700px;
+    }
+</style>
