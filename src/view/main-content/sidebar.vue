@@ -1,9 +1,9 @@
 <template>
     <div class="sidebar">
         <div class="sidebar-inner">
-            <session>
+            <div>
 
-            </session>
+            </div>
         </div>
     </div>
 </template>

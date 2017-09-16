@@ -1,9 +1,9 @@
 <template>
     <div class="content-warp">
         <div class="content">
-            <section class="post">
+            <div class="post">
                 我是内容
-            </section>
+            </div>
         </div>
     </div>
 </template>
