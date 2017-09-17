@@ -2,8 +2,8 @@
     <div>
         <div class="main-inner">
             <content-warp></content-warp>
-            <sidebar-toggle></sidebar-toggle>
-            <sidebar></sidebar>
+            <sidebar-toggle @sidebarChange="sidebarChangeHandle"></sidebar-toggle>
+            <sidebar :isOpen="isSidebarOpen"></sidebar>
         </div>
     </div>
 </template>
@@ -14,6 +14,17 @@ import sidebarToggle from './sidebar-toggle';
 import sidebar from './sidebar';
 export default {
     name: 'main-content',
+    data: function () {
+        return {
+            isSidebarOpen: false
+        };
+    },
+    methods: {
+        sidebarChangeHandle: function() {
+            console.log('我被触发了');
+            this.isSidebarOpen = !this.isSidebarOpen;
+        }
+    },
     components: {
         contentWarp,
         sidebarToggle,
