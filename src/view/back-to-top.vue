@@ -1,6 +1,6 @@
 <template>
     <div class="back-to-top">
-        <i></i>
+        <i class="fa fa-arrow-up"></i>
     </div>
 </template>
 
@@ -8,10 +8,10 @@
     .back-to-top {
         box-sizing: border-box;
         position: fixed;
-        bottom: -100px;
+        bottom: 19px;
         right: 30px;
         z-index: 1050;
-        padding: 0 6px;
+        padding: 6px;
         width: 24px;
         background: #222;
         font-size: 12px;
