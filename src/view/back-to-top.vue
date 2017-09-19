@@ -8,7 +8,7 @@
     .back-to-top {
         box-sizing: border-box;
         position: fixed;
-        bottom: 19px;
+        bottom: -100px;
         right: 30px;
         z-index: 1050;
         padding: 6px;
