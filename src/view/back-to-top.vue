@@ -19,7 +19,6 @@
         color: #fff;
         cursor: pointer;
         text-align: center;
-        -webkit-transform: translateZ(0);
         transition-property: bottom;
         transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
