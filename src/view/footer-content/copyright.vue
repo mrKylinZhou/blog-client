@@ -1,6 +1,7 @@
 <template>
     <div class="copyright">
-        <span></span>
+        <span>©&nbsp;</span>
+        <span>2017</span>
         <span class="with-love">
             <i class="fa fa-heart"></i>
         </span>

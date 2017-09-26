@@ -18,10 +18,16 @@ export default {
 
 
 <style lang="less" scoped>
-    .footer-inner {
-        text-align: center;
-        box-sizing: border-box;
-        margin: 20px auto;
-        width: 700px;
+    .footer {
+        font-size: 14px;
+        color: #999;
+        width: 100%;
+        min-height: 50px;
+        .footer-inner {
+            text-align: center;
+            box-sizing: border-box;
+            margin: 20px auto;
+            width: 700px;
+        }
     }
 </style>
