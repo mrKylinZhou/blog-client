@@ -1,7 +1,7 @@
 <template>
     <div class="site-brand-warpper">
-        <div>
-            <span>Kylin's Blog</span>
+        <div class="site-brand-content">
+            <router-link :to="'/'" class="site-title">Kylin's Blog</router-link>
         </div>
     </div>
 </template>

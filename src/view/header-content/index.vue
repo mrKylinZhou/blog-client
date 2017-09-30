@@ -2,16 +2,19 @@
     <div class="header">
         <div class="header-inner">
             <site-brand></site-brand>
+            <site-nav></site-nav>
         </div>
     </div>
 </template>
 
 <script>
 import siteBrand from './site-brand';
+import siteNav from './site-nav';
 export default {
     name: 'header-content',
     components: {
-        siteBrand
+        siteBrand,
+        siteNav
     }
 }
 </script>
