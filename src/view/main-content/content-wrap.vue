@@ -9,7 +9,11 @@
 </template>
 
 <script>
+import request from '../../service/request';
 export default {
-    name: 'content-warp'
+    name: 'content-warp',
+    created: async function() {
+        const data = request.get();
+    }
 }
 </script>
