@@ -1,14 +1,18 @@
 <template>
     <div class="header">
         <div class="header-inner">
-            我是头部信息
+            <site-brand></site-brand>
         </div>
     </div>
 </template>
 
 <script>
+import siteBrand from './site-brand';
 export default {
-
+    name: 'header-content',
+    components: {
+        siteBrand
+    }
 }
 </script>
 
