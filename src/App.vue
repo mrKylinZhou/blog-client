@@ -1,11 +1,16 @@
 <template>
   <div>
-    <mu-button flat color="primary">Primary</mu-button>
+    <home></home>
   </div>
 </template>
 
 <script>
-
+  import Home from './view/home'
+  export default {
+    components: {
+      Home
+    }
+  }
 </script>
 
 <style lang="less" scoped>
