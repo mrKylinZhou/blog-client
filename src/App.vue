@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <md-button>默认</md-button>
   </div>
 </template>
 
