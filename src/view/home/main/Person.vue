@@ -1,9 +1,14 @@
 <template>
-  <mu-card
-    raised>
-    <mu-card-header
-      title="Kylin"
-      sub-title="不为无益之事，何以遣有涯余生">
-    </mu-card-header>
-  </mu-card>
+  <mu-paper
+    class="person"
+    :z-depth="2">
+    Kylin
+  </mu-paper>
 </template>
+
+<style lang="less" scoped>
+  .person {
+    width: 240px;
+    margin-top: 15px;
+  }
+</style>
