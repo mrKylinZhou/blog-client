@@ -1,6 +1,6 @@
 <template>
   <div>
-    <md-button>默认</md-button>
+    <mu-button flat color="primary">Primary</mu-button>
   </div>
 </template>
 

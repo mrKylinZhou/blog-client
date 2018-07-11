@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.css'
+import MuseUI from 'muse-ui'
+import 'muse-ui/dist/muse-ui.css'
 Vue.config.productionTip = false
 
-Vue.use(VueMaterial)
+Vue.use(MuseUI);
 
 new Vue({
   el: '#app',
