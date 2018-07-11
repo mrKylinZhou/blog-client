@@ -1,0 +1,9 @@
+<template>
+  <mu-card
+    raised>
+    <mu-card-header
+      title="Kylin"
+      sub-title="不为无益之事，何以遣有涯余生">
+    </mu-card-header>
+  </mu-card>
+</template>
