@@ -30,7 +30,7 @@
 
 <style lang="less" scoped>
   .menu {
-    width: 240px;
+    width: 100%;
     .site-brand-wrapper {
       width: 100%;
       text-align: center;

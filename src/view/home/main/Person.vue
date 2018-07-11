@@ -17,7 +17,6 @@
 
 <style lang="less" scoped>
   .person {
-    width: 240px;
     margin-top: 15px;
   }
 </style>
