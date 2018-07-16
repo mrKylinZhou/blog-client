@@ -27,6 +27,10 @@ acorn@^5.0.0, acorn@^5.3.0:
   version "5.7.1"
   resolved "http://registry.npm.taobao.org/acorn/download/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
+add@^2.0.6:
+  version "2.0.6"
+  resolved "http://registry.npm.taobao.org/add/download/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+
 ajv-keywords@^1.1.1:
   version "1.5.1"
   resolved "http://registry.npm.taobao.org/ajv-keywords/download/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
@@ -3121,6 +3125,10 @@ ms@2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+muse-ui-toast@^0.3.0:
+  version "0.3.0"
+  resolved "http://registry.npm.taobao.org/muse-ui-toast/download/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
+
 muse-ui@^3.0.0-rc.5:
   version "3.0.0-rc.5"
   resolved "http://registry.npm.taobao.org/muse-ui/download/muse-ui-3.0.0-rc.5.tgz#fe58b08ec8cef485ef6f040c564393372e13042f"
@@ -5102,3 +5110,7 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
+
+yarn@^1.7.0:
+  version "1.7.0"
+  resolved "http://registry.npm.taobao.org/yarn/download/yarn-1.7.0.tgz#0076b9fde6010e01950526a609bc53bc175ef925"

@@ -6,7 +6,7 @@ import 'muse-ui/dist/muse-ui.css'
 import './assets/iconfont/material-icons.css'
 Vue.config.productionTip = false
 
-Vue.use(MuseUI);
+Vue.use(MuseUI)
 
 new Vue({
   el: '#app',
