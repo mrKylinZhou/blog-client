@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  import HeadBand from './HeadBand.vue'
+  import HeadBand from '../../components/HeadBand.vue'
   import KMain from './main'
-  import KFooter from './Footer.vue'
+  import KFooter from '../../components/Footer.vue'
   export default {
     components: {
       HeadBand,
