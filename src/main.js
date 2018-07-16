@@ -6,6 +6,7 @@ import 'muse-ui/dist/muse-ui.css'
 import './assets/iconfont/material-icons.css'
 import 'muse-ui-progress/dist/muse-ui-progress.css'
 import Progress from 'muse-ui-progress'
+
 Progress.config({
   zIndex: 2000,
   top: 0,
@@ -14,8 +15,8 @@ Progress.config({
 
 Vue.config.productionTip = false
 
-Vue.use(MuseUI)
 Vue.use(Progress)
+Vue.use(MuseUI)
 
 new Vue({
   el: '#app',

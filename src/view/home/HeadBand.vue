@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    created () {
+    mounted () {
       this.$progress.start()
       setTimeout(() => {
         this.$progress.done()

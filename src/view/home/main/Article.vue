@@ -2,15 +2,27 @@
   <mu-paper
     class="article"
     :z-depth="2">
-    <div></div>
+    <div v-html="formatArticle"></div>
   </mu-paper>
 </template>
 
 <script>
   import marked from 'marked'
+  import { GetArticle } from '../../../apis/index.js'
   export default {
     data() {
-      return {}
+      return {
+        article: ''
+      }
+    },
+    computed: {
+      formatArticle() {
+        return marked(this.article)
+      }
+    },
+    async created() {
+      this.article = await GetArticle('hello-world')
+        .catch(msg => msg)
     }
   }
 </script>
