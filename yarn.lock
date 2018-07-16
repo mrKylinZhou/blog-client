@@ -3125,6 +3125,10 @@ ms@2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+muse-ui-progress@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/muse-ui-progress/download/muse-ui-progress-0.1.0.tgz#dc61e6cbc68e3e4d2eb8e93ba330df22df01c9f5"
+
 muse-ui-toast@^0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.taobao.org/muse-ui-toast/download/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
