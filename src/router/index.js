@@ -3,6 +3,8 @@ import Router from 'vue-router'
 
 import App from '../App.vue'
 
+import Article from '../view/article-detail/Index.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -10,7 +12,14 @@ export default new Router({
     {
       path: '/',
       name: 'App',
-      component: App
+      component: App,
+      children: [
+        {
+          path: 'article/:name',
+          name: 'Article',
+          component: Article
+        }
+      ]
     }
   ]
 })

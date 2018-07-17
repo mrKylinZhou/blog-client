@@ -1,14 +1,20 @@
 <template>
   <div>
-    <home></home>
+    <head-band></head-band>
+    <div>
+      <router-view></router-view>
+    </div>
+    <k-footer></k-footer>
   </div>
 </template>
 
 <script>
-  import Home from './view/home'
+  import HeadBand from './components/HeadBand.vue'
+  import KFooter from './components/Footer.vue'
   export default {
     components: {
-      Home
+      HeadBand,
+      KFooter
     }
   }
 </script>

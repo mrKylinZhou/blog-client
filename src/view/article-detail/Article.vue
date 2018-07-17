@@ -8,7 +8,7 @@
 
 <script>
   import marked from 'marked'
-  import { GetArticle } from '../../../apis/index.js'
+  import { GetArticle } from '../../apis/index.js'
   export default {
     data() {
       return {
@@ -21,7 +21,8 @@
       }
     },
     async created() {
-      this.article = await GetArticle('hello-world')
+      const name = this.$route.params.name
+      this.article = await GetArticle(name)
         .catch(msg => msg)
     }
   }
