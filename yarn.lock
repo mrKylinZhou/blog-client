@@ -27,10 +27,6 @@ acorn@^5.0.0, acorn@^5.3.0:
   version "5.7.1"
   resolved "http://registry.npm.taobao.org/acorn/download/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
-add@^2.0.6:
-  version "2.0.6"
-  resolved "http://registry.npm.taobao.org/add/download/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
-
 ajv-keywords@^1.1.1:
   version "1.5.1"
   resolved "http://registry.npm.taobao.org/ajv-keywords/download/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
@@ -4884,6 +4880,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-cute-timeline@^1.2.5:
+  version "1.2.5"
+  resolved "http://registry.npm.taobao.org/vue-cute-timeline/download/vue-cute-timeline-1.2.5.tgz#ac4659910e8170250a340e4fda541f898f4ab2e8"
+
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
@@ -5114,7 +5114,3 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
-
-yarn@^1.7.0:
-  version "1.7.0"
-  resolved "http://registry.npm.taobao.org/yarn/download/yarn-1.7.0.tgz#0076b9fde6010e01950526a609bc53bc175ef925"

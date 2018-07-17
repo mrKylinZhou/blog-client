@@ -23,7 +23,6 @@
   }
 </script>
 
-
 <style lang="less" scoped>
   .main-container {
     width: 75%;
