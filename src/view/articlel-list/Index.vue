@@ -1,6 +1,7 @@
 <template>
   <mu-flex class="main-container">
     <div class="msg-wrap">
+      <person></person>
     </div>
     <mu-flex fill class="article-wrap">
       <list></list>
@@ -10,9 +11,11 @@
 
 <script>
   import List from './List.vue'
+  import Person from '../../components/Person.vue'
   export default {
     components: {
-      List
+      List,
+      Person
     }
   }
 </script>

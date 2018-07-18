@@ -2,7 +2,9 @@
   <mu-flex class="main-container">
     <div class="msg-wrap">
       <k-menu></k-menu>
-      <person></person>
+      <person
+        class="person">
+      </person>
     </div>
     <mu-flex fill class="article-wrap">
       <k-article></k-article>
@@ -12,7 +14,7 @@
 
 <script>
   import KMenu from './Menu.vue'
-  import Person from './Person.vue'
+  import Person from '../../components/Person.vue'
   import KArticle from './Article.vue'
   export default {
     components: {
@@ -30,6 +32,9 @@
     .msg-wrap {
       width: 240px;
       margin-right: 15px;
+      /deep/ .person {
+        margin-top: 15px;
+      }
     }
   }
 </style>

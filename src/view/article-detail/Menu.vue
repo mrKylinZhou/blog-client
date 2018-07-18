@@ -18,7 +18,10 @@
           首页
         </mu-list-item-title>
       </mu-list-item>
-      <mu-list-item button>
+      <mu-list-item button
+        :to="{
+          name: 'Articles',
+        }">
         <mu-list-item-title
           class="nav-title">
           文章
