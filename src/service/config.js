@@ -1,5 +1,5 @@
 export default {
-  baseURL: 'http://localhost:3333/api',
+  baseURL: '/api',
   headers: {
     'X-Requested-With': 'XMLHttpRequest'
   },
