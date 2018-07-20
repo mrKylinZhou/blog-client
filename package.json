@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "hls.js": "^0.10.1",
     "marked": "^0.4.0",
     "muse-ui": "^3.0.0-rc.5",
     "muse-ui-progress": "^0.1.0",
     "muse-ui-toast": "^0.3.0",
     "vue": "^2.4.2",
+    "vue-aplayer": "^1.6.1",
     "vue-cute-timeline": "^1.2.5",
     "vue-router": "^2.7.0"
   },
