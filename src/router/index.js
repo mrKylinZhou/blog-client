@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import App from '../App.vue'
 
+import Home from '../view/home/Index.vue'
 import Articles from '../view/articlel-list/Index.vue'
 import Article from '../view/article-detail/Index.vue'
 
@@ -14,7 +15,7 @@ export default new Router({
       path: '/',
       name: 'App',
       component: App,
-      redirect: 'articles',
+      redirect: 'home',
       children: [
         {
           path: 'articles',
@@ -27,6 +28,11 @@ export default new Router({
           component: Article
         }
       ]
-    }
+    },
+    {
+      path: '/home',
+      name: 'Home',
+      component: Home
+    },
   ]
 })

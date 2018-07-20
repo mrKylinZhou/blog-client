@@ -8,6 +8,7 @@ import './assets/material-font/material-icons.css'
 import './assets/iconfont/iconfont.css'
 import 'muse-ui-progress/dist/muse-ui-progress.css'
 import Progress from 'muse-ui-progress'
+import VueParticles from 'vue-particles'
 
 Progress.config({
   zIndex: 2000,
@@ -20,6 +21,7 @@ Vue.config.productionTip = false
 Vue.use(MuseUI)
 Vue.use(Helpers)
 Vue.use(Progress)
+Vue.use(VueParticles)
 
 new Vue({
   el: '#app',
